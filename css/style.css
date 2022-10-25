@@ -1,0 +1,142 @@
+body {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size: 48px; 
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size: 38px; 
+    font-weight: 600;
+}
+
+p {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #727272;
+}
+
+.header {
+    width: 100%;
+    background: #eeeff1;
+    height: 480px;
+}
+
+.hbox {
+    width: 1160px;
+    height: 120px; 
+    margin:0 auto;
+}
+
+.main {
+    width: 100%;
+    background: #eeeff1;
+}
+
+.designbox {
+    width: 1160px;
+    height: 200px; 
+    margin:0 auto;
+}
+
+.design {
+    float: left;
+    width: 650px;
+    padding-left: 100px;
+    padding-top: 100px;  
+}
+
+.about {
+    width: 100%;
+    background: #ffffff;
+    height: 250px; 
+}
+
+.aboutbox { 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32em
+}
+
+.hau {
+    width: 100%;
+    background-color: #eeeff1;
+    height: 250px;
+    padding-top: 30px;
+}
+
+.proekts {
+    width: 100%;
+    background: #14537c;
+    height: 142px;
+}
+
+.responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.fbox {
+    width: 1160px;
+    height: 120px; 
+    margin:0 auto;
+}
+
+.autor {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.footer {
+    width: 100%;
+    background: #14537c;
+    height: 120px;
+    color: #ffffff;
+}
+
+.button {
+    background-color: #14537c;
+    border: none;
+    color: white;
+    padding: 15px 52px;
+    text-align: center;    
+    display: inline-block;
+    font-size: 14px;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+
+#menu {
+    padding-top: 40px;
+    padding-left: 100px;
+    display: flex;
+}
+
+#menu a {
+    margin-right: 12px;
+    padding: 10px;
+    font: 17px Arial;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu a:hover, #menu a.active {
+    color: #14537c;
+    font-weight: 600;
+}
