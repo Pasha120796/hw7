@@ -15,12 +15,7 @@ h2 {
 }
 
 p {
-    font-family: 'roboto', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 25px;
-    color: #727272;
 }
 
 .header {
@@ -114,7 +109,7 @@ p {
     border: none;
     color: white;
     padding: 15px 52px;
-    text-align: center;    
+    text-align: center;
     display: inline-block;
     font-size: 14px;
     margin: 8px 2px;
@@ -139,4 +134,14 @@ p {
 #menu a:hover, #menu a.active {
     color: #14537c;
     font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
 }
