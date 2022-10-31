@@ -68,10 +68,49 @@ p {
     padding-top: 30px;
 }
 
-.proekts {
+/* .proekts {
     width: 100%;
     background: #14537c;
     height: 142px;
+} */
+
+.projects {
+    background-color: #34547a;
+}
+
+.projects ul {
+    width: 1111px;
+    margin: 0px auto;
+    padding: 100px 0;
+}
+
+.projects ul li {
+    width: 141px;
+    display: inline-block;
+}
+
+.projects ul li+li {
+    margin-left: 49px;
+}
+
+.content {
+    max-height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title-frty {
+    padding: 3px 31px 7px 20px;
+    font-weight: 500;
+    font-size: 21px;
+    color: white;
+}
+
+.title-prjt {
+    padding: 0px 0px 3px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
 }
 
 .responsive {
